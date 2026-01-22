@@ -5,3 +5,5 @@ The application can find an approximation for an excited state wave function wit
 The source code files are compiled in Linux terminal as in (for the 2d rectangle example)
 
 g++ -O3 -ffast-math rectangle.cpp
+
+The plot.py script is for plotting the resulting output files from the rectangular potential well example, and the grid size parameters have to be changed in the code for plotting the supercircle results.
