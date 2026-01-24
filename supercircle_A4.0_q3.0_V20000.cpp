@@ -29,7 +29,6 @@ const int NY_COARSE = 120;
 
 const double E_trial = 11.0; // Attempting to converge to an eigenstate of H with energy closest to this value
 
-// Potential: 2D Simple Harmonic Oscillator V(x, y) = 0.5 * k_x * x^2 + 0.5 * k_y * y^2
 double potential(double x, double y) {
     // Particle in a supercircular area with finite potential step at boundaries
     if(pow(abs(x),3) + pow(abs(y),3) < pow(1.063999,3)) return -E_trial;
