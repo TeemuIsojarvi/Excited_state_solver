@@ -1,5 +1,5 @@
 # Excited_state_solver
-This program is an improved version of the earlier GitHub program 'meanstate', and can also calculate approximations for the wave functions and energy eigenvalues of 2D quantum systems.
+This program is meant for computing numerical results for the wave functions and energy eigenvalues of 1D or 2D quantum systems.
 
 The application can find an approximation for an excited state wave function without sequential computation of the lower energy states from ground state up.
 The source code files are compiled in Linux terminal as in (for the 2d rectangle example)
