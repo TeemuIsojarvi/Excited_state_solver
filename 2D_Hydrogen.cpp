@@ -21,7 +21,7 @@ const double TIME_T = 3.141; // Total time interval for one iteration
 double DT = 0.05;   // Time step size
 const int NT = static_cast<int>(TIME_T / DT); // Number of time steps
 const int N_ITERATIONS = 15; // Total number of outer iterations for convergence
-constexpr std::array<int, 1> Refine_points = {10}; // Iteration numbers where resolution is multiplied x1.5
+constexpr std::array<int, 1> Refine_points = {10}; // Iteration numbers where resolution is improved
 
 // Initial grid points (Coarse grid)
 const int NX_COARSE = 400;
